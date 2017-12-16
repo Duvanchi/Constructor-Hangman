@@ -1,0 +1,22 @@
+{
+  "name": "constructo-hangman",
+  "version": "1.0.0",
+  "description": "Constructor homework 12/12/15",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duvanchi/Constructor-Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duvanchi/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/Duvanchi/Constructor-Hangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1"
+  }
+}
