@@ -1,11 +1,11 @@
 var main = require("./main.js");
 var letter = require("./letter.js");
-exports.letterArr = [];
+exports.letterArray = [];
 
 // function for checking is single letter guess is correct
 exports.checker = function() {
 	var wordToCheck = main.chosenWord;
-	exports.letterArr.push(main.letter);
+	exports.letterArray.push(main.letter);
 	var detected = 0; 
 	for (var i = 0; i < wordToCheck.length; i++) {
 		if (wordToCheck.charAt(i) == main.letter) {
